@@ -181,6 +181,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1377197793697218, guid: b4201d402613a4464b35c805dafcca62, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1048181105}
+    - targetCorrespondingSourceObject: {fileID: 1377197793697218, guid: b4201d402613a4464b35c805dafcca62, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1048181110}
   m_SourcePrefab: {fileID: 100100000, guid: b4201d402613a4464b35c805dafcca62, type: 3}
 --- !u!1 &330585543
 GameObject:
@@ -353,7 +356,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 354626320}
   serializedVersion: 5
-  m_Mass: 10
+  m_Mass: 1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -372,6 +375,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &354626326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 354626320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39d8039629f9691409e77926af6876d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Gravitation
 --- !u!1 &410087039
 GameObject:
   m_ObjectHideFlags: 0
@@ -552,6 +567,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &443787734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 443787728}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39d8039629f9691409e77926af6876d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Gravitation
 --- !u!1001 &761980998
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -626,6 +653,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: 1d1efd74961b744cca932e0880b5eb4d, type: 3}
       insertIndex: -1
       addedObject: {fileID: 761981000}
+    - targetCorrespondingSourceObject: {fileID: 100000, guid: 1d1efd74961b744cca932e0880b5eb4d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 761981006}
   m_SourcePrefab: {fileID: 100100000, guid: 1d1efd74961b744cca932e0880b5eb4d, type: 3}
 --- !u!1 &761980999 stripped
 GameObject:
@@ -680,6 +710,18 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 2.000001, y: 1.9903694, z: 2.0000005}
   m_Center: {x: -0.00000017881393, y: -0.000000059604645, z: 0.00000086426735}
+--- !u!114 &761981006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 761980999}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39d8039629f9691409e77926af6876d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Gravitation
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
@@ -763,7 +805,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1048181104}
   serializedVersion: 5
-  m_Mass: 10
+  m_Mass: 100
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -782,6 +824,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1048181110
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1048181104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39d8039629f9691409e77926af6876d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Gravitation
 --- !u!1 &1080380038 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1901559596380486, guid: baebbc833ecda42dd8a75966c9f62420, type: 3}
@@ -816,7 +870,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1080380038}
   serializedVersion: 5
-  m_Mass: 10
+  m_Mass: 1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -835,6 +889,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1080380044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1080380038}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39d8039629f9691409e77926af6876d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Gravitation
 --- !u!1001 &1332224662
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -897,6 +963,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1408581670749804, guid: f9a741bb8762344c6a2a9cb4217ef728, type: 3}
       insertIndex: -1
       addedObject: {fileID: 354626321}
+    - targetCorrespondingSourceObject: {fileID: 1408581670749804, guid: f9a741bb8762344c6a2a9cb4217ef728, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 354626326}
   m_SourcePrefab: {fileID: 100100000, guid: f9a741bb8762344c6a2a9cb4217ef728, type: 3}
 --- !u!1 &1406035450 stripped
 GameObject:
@@ -951,6 +1020,30 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1406035456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1406035450}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39d8039629f9691409e77926af6876d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Gravitation
+--- !u!114 &1406035457
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1406035450}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39d8039629f9691409e77926af6876d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Gravitation
 --- !u!1001 &1730822852
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1013,6 +1106,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1610884164528438, guid: 5d1442ad8c11442988e0eca5d8af73f0, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1406035451}
+    - targetCorrespondingSourceObject: {fileID: 1610884164528438, guid: 5d1442ad8c11442988e0eca5d8af73f0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1406035456}
+    - targetCorrespondingSourceObject: {fileID: 1610884164528438, guid: 5d1442ad8c11442988e0eca5d8af73f0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1406035457}
   m_SourcePrefab: {fileID: 100100000, guid: 5d1442ad8c11442988e0eca5d8af73f0, type: 3}
 --- !u!1001 &1775804923
 PrefabInstance:
@@ -1076,6 +1175,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1901559596380486, guid: baebbc833ecda42dd8a75966c9f62420, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1080380039}
+    - targetCorrespondingSourceObject: {fileID: 1901559596380486, guid: baebbc833ecda42dd8a75966c9f62420, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1080380044}
   m_SourcePrefab: {fileID: 100100000, guid: baebbc833ecda42dd8a75966c9f62420, type: 3}
 --- !u!1001 &1782787410
 PrefabInstance:
@@ -1139,6 +1241,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1526814149960808, guid: 7e4bfb3c6ba1d4bc4ba31d585abdae0f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 443787729}
+    - targetCorrespondingSourceObject: {fileID: 1526814149960808, guid: 7e4bfb3c6ba1d4bc4ba31d585abdae0f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 443787734}
   m_SourcePrefab: {fileID: 100100000, guid: 7e4bfb3c6ba1d4bc4ba31d585abdae0f, type: 3}
 --- !u!1 &1945932948 stripped
 GameObject:
@@ -1193,6 +1298,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1945932954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1945932948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39d8039629f9691409e77926af6876d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Gravitation
 --- !u!1001 &1960785764
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1255,6 +1372,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1288793558353234, guid: 1818e1a170ef94c3aacee2ba50057521, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1945932949}
+    - targetCorrespondingSourceObject: {fileID: 1288793558353234, guid: 1818e1a170ef94c3aacee2ba50057521, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1945932954}
   m_SourcePrefab: {fileID: 100100000, guid: 1818e1a170ef94c3aacee2ba50057521, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
